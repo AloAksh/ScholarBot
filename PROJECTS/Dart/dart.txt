@@ -1,0 +1,67 @@
+dart notes
+--------------------------------------------------------------------
+header file: dart:io
+		stdout.writeln()
+		stdin.readLineSync()
+header file: dart:core is applied by default
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Data types:
+	int 
+	double
+	String
+	bool
+	dynamic
+
+	num - int and double
+	
+
+Variables can be declared using the keyword 'var'. It'll detect the datatype automatically.
+But the type can change dynamically only in the datatype - dynamic/Object.
+
+Making a varible nullable - put a ? after the type name: [int? a = 10;]
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Some in-built functions
+
+object.toString()
+assert(condition)
+datatype.parse(string) - converts the string to the datatype
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+LOOPA
+
+standard for loop - for(init; cond; updation){}
+for-in loop - for(var n in array){}
+forEach loop - forEach((element) {code});
+standard while - while(cond){}
+do-while - do{}while(cond);
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+
+Control Statements
+
+break 
+continue 
+return 
+
+---------------------------------------------------------------------
+
+---------------------------------------------------------------------
+Collections 
+
+List - ordered collection of various/single types - []
+	Copying a list into another: datatype copied_list_name = [...original_list_name];
+
+	List <String> or List <int> - strictly String or int types only
+
+Set - unordered unique collecction of items -{}
+
+Map - collection of key-value pairs
